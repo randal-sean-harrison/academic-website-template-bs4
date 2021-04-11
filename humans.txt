@@ -1,0 +1,24 @@
+/* Web Site Design */
+
+  -------------------------------------------------------------------------------------
+  You should probably leave this file intact if you choose to use this template, but otherwise, no need to mention me anywhere public-facing on the website
+  -------------------------------------------------------------------------------------
+
+   Project: randalseanharrison.com
+   Web Design and Development
+
+	 Release date: April, 2021
+
+   Developer: Randal Sean Harrison, Ph.D.
+ 	 Employed: Hesburgh Libraries, University of Notre Dame
+	 Contact: rharriso@nd.edu
+
+/* Technologies, Credits  */
+
+   Languages: HTML5, CSS3, Javascript
+   Frameworks: jQuery, Bootstrap 4, Mustache.js
+   Web Fonts: FontAwesome 4, Google Fonts (Open Sans), Academicons
+
+   IDE/Env: Atom.io
+
+   Copyright 2021, Randal Sean Harrison

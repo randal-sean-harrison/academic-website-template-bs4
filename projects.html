@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="img/favicons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- jQuery UI css -->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Google font: Open Sans Pro -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome icon include -->
+  <script src="https://kit.fontawesome.com/00418a4922.js" crossorigin="anonymous"></script>
+
+  <!-- Main local styles -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <title>Jane Smith, PhD</title>
+
+</head>
+
+<body id="top">
+
+  <!-- navbar include -->
+  <div id="page-navbar"></div>
+
+  <!-- main wrapper div -->
+  <div class="container px-4" id="wrapper">
+
+    <div class="row mx-3">
+      <div class="col-sm-12">
+        <h1>Projects</h1>
+        <p>My recent work has involved {{things I've done}}.</p>
+      </div>
+      <!-- col-sm-12 -->
+
+      <div class="col-sm-10 offset-sm-1">
+        <form id="search-box">
+          <div class="form-group">
+            <div class="input-group border-0">
+              <div class="input-group-prepend">
+                <span class="input-group-text border-0"><i class="fa fa-search fa-fw fa-2x graphite"></i></span>
+              </div>
+              <input type="text" class="form-control form-control-lg" aria-label="" name="brainstorm-search" id="search-input" placeholder="Search projects">
+              <div class="input-group-append" id="search-refresh-button">
+                <span class="input-group-text border-0"><i class="fa fa-sync-alt opacity-half bright-blue fa-fw fa-2x pointer sm-del"></i></span>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- .col-sm-8 -->
+
+      <div class="col-sm-10 offset-sm-1 text-center" id="filter-buttons">
+
+        <!-- Filter buttons -->
+        <button id="all" class="btn btn-sm btn-primary mr-3 active">
+          <i class="fa fa-infinity mr-2"></i>All
+        </button>
+        <button id="type1" class="btn btn-sm btn-primary mr-3">
+          <i class="fa fa-window mr-2"></i>Type 1
+        </button>
+        <button id="type2" class="btn btn-sm btn-primary mr-3">
+          <i class="fa fa-drafting-compass mr-2"></i>Type 2
+        </button>
+        <button id="type3" class="btn btn-sm btn-primary mr-3">
+          <i class="fa fa-chess-knight mr-2"></i>Type 3
+        </button>
+        <button id="type4" class="btn btn-sm btn-primary mr-3">
+          <i class="fa fa-lightbulb-on mr-2"></i>Type 4
+        </button>
+
+
+      </div>
+      <!-- col-sm-10 -->
+    </div>
+    <!-- .row -->
+
+    <div class="row" id="projects-div">
+
+      <!-- Write the cards into the page -->
+      <script id="all-the-projects" type="text/template">
+
+        {{#projects}}
+          <div class="card-container col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <div class="card shadow-sm {{{type}}}" data-url="{{{link}}}">
+              <img src="{{{image}}}" class="card-img-top" alt="...">
+              <div class="card-body border-top" data-resource-type="{{{type}}}">
+                <p class="text-center card-action"><span>{{{icon}}}</span></p>
+                <h5 class="project-title">{{name}}</h5>
+                {{description}}
+              </div>
+            </div>
+          </div>
+        {{/projects}}
+      </script>
+
+    </div>
+    <!-- .row -->
+
+  </div>
+  <!-- #wrapper .container -->
+
+  <!-- Footer include -->
+  <div id="page-footer"></div>
+
+  <!-- Back to top button -->
+  <a role="button" id="back-to-top" class="btn scroll-link" href="#top"><i class="fa fa-fw fa-2x fa-angle-up" aria-hidden="true"></i></a>
+
+  <div class="modal fade" id="modal-map-to-office" tabindex="-1" role="dialog" aria-labelledby="office-map-modal-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="office-map-modal-label">Map to my office</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img class="image-fluid dx-auto" src="img/map-to-my-office.png" alt="map to my office">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jquery JS minified -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+  <!-- jquery ui -->
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <!-- Mustache.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
+
+  <!-- popper minified -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+  <!-- bootstrap JS minified -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!-- Main local scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/projects.js"></script>
+
+  <script>
+    $(function() {
+
+      // Load the top page navbar
+      $("#page-navbar").load("page-navbar.html", function() {
+
+        $("#me").removeClass("active");
+        $("#projects").addClass("active");
+
+      });
+
+
+      // Redirect to URL on data-url attr
+      $(document).on("click", "[data-url]", function() {
+        var url = $(this).data("url");
+        window.open(url);
+      });
+
+    });
+    // document.ready
+  </script>
+
+</body>
+
+</html>
