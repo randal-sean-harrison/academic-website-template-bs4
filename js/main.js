@@ -77,14 +77,14 @@ $(document).ready(function() {
       $(".expander").text("hide all");
       // show all accordions
       $("#wrapper .collapse").collapse('show');
-      $(".btn").prev().find("i").addClass("fa-rotate-45");
+      $("#teaching-section .btn").prev().find("i").addClass("fa-rotate-45");
 
     } else {
       // Change the button text
       $(".expander").text("show all");
       // hide all accordions
       $("#wrapper .collapse").collapse('hide');
-      $(".btn").prev().find("i").removeClass("fa-rotate-45");
+      $("#teaching-section .btn").prev().find("i").removeClass("fa-rotate-45");
     }
   });
 
