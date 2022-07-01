@@ -24,7 +24,7 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: 'Proxima Nova', "Arial", sans-serif;
+  font-family: 'Mulish', "Arial", sans-serif;
   color: var(--body-font);
   font-size: 1rem;
   background: var(--body-background);
