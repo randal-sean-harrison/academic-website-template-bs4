@@ -176,6 +176,8 @@ h3:after {
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
+  transition-property: all;
+  transition-duration: .2s;
 }
 
 .fa-rotate-90 {
@@ -184,6 +186,8 @@ h3:after {
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
+  transition-property: all;
+  transition-duration: .2s;
 }
 
 /* Research section --------------------------------------------------------- */
