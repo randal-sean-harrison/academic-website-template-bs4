@@ -19,15 +19,15 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 body {
   box-sizing: border-box;
-  font-family: 'Mulish', "Arial", sans-serif;
+  font-family: 'Roboto', "Arial", sans-serif;
   color: var(--body-font);
-  font-size: 1rem;
   background: var(--body-background);
+  font-size: 1rem;
 }
 
 p, ul, li, table, tr, td, dd, dt {
@@ -219,7 +219,7 @@ h3:after {
 }
 
 .social-icons li {
-  padding-left: 2rem;
+  padding: 0 2rem;
   display: inline-block;
   text-align: center;
   cursor: pointer;
@@ -274,8 +274,13 @@ h3:after {
   color: var(--graphite);
 }
 
+.bg-alice-blue {
+  background: var(--alice-blue);
+}
+
 /* Navbar -------------------------------------------- */
-.bg-navbar {
+.bg-navbar,
+.bg-footer {
   background: var(--nd-blue);
 }
 
@@ -296,9 +301,12 @@ h3:after {
 }
 
 #page-footer {
-  margin-top: 5rem;
-  background: var(--footer-slate);
+  background: var(--nd-blue);
   padding: 2rem 0 1.5rem;
+}
+
+#acknowledge {
+  margin-top: 75px;
 }
 
 blockquote,

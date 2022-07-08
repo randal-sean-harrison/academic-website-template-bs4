@@ -2,7 +2,16 @@ $(document).ready(function() {
 
   // Write the page footer
   $("#page-footer").load("footer.html", function() {
-    $('[data-toggle="tooltip"]').tooltip();
+
+    $(document).tooltip({
+      selector: '[data-toggle="tooltip"]'
+    });
+
+    console.log("Footer loaded.");
+    // Add the current year to copyright
+    const thisYear = new Date().getFullYear();
+    $("#footer-year").text(thisYear);
+
   });
 
   // Scroll to top button ---------------------------------------------

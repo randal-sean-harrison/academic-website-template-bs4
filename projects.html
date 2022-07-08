@@ -32,14 +32,14 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-  <!-- Google font, Mulish -->
+  <!-- Google font, Roboto -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet"> 
-  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,700;1,400&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
 
   <!-- FontAwesome icon include -->
-  <script src="https://kit.fontawesome.com/b730292a05.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
 
   <!-- Main local styles -->
   <link rel="stylesheet" href="css/main.css">
@@ -130,6 +130,9 @@
   </div>
   <!-- #wrapper .container -->
 
+  <!-- Acknowledge include -->
+  <div id="acknowledge"></div>
+
   <!-- Footer include -->
   <div id="page-footer"></div>
 
@@ -182,6 +185,10 @@
 
       });
 
+      // Load the acknowledge footer
+      $("#acknowledge").load("acknowledge.html", function() {
+        console.log("acknowledge loaded");
+      });
 
       // Redirect to URL on data-url attr
       $(document).on("click", "[data-url]", function() {

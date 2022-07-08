@@ -32,14 +32,14 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-  <!-- Google font, Mulish -->
+  <!-- Google font, Roboto -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet"> 
-  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,700;1,400&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
 
   <!-- FontAwesome icon include -->
-  <script src="https://kit.fontawesome.com/b730292a05.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- Main local styles -->
   <link rel="stylesheet" href="css/main.css">
@@ -175,8 +175,14 @@
           <!-- Delete this section below if you don't want a read more section -------->
 
           <div id="read-more">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dolor quibusdam deleniti architecto ad sequi laborum ipsam tenetur itaque! Hic dolor, atque? Necessitatibus quaerat incidunt illum eos asperiores obcaecati vel maxime unde atque, quod vero itaque veniam expedita ad molestias sunt cupiditate voluptate quo pariatur minima dolores quis, minus qui quia? Molestias aliquid nemo rerum iure quasi error velit ut provident, voluptate laboriosam, ducimus, soluta excepturi repellat minima laudantium optio! Eos veritatis expedita, quibusdam nulla sequi laborum eum iure possimus laudantium odio, dicta officia sint quasi impedit iste veritatis qui, assumenda laborum reprehenderit amet, quia enim.</p>
-            <p>Id ratione commodi dolorem aut similique iste a, numquam natus nesciunt aliquid, voluptatibus, architecto velit non cumque distinctio nemo ad sapiente laborum temporibus fuga tempora. Hic eligendi, autem consectetur iure commodi ipsa nam ducimus voluptate, ipsum laboriosam magni, aliquid quia! Ab quas voluptates modi, illo nisi, voluptas aliquam aliquid laboriosam dolore reprehenderit necessitatibus, amet maiores deserunt! Voluptas cumque quo labo voluptatibus eos. Optio cupiditate explicabo est nisi, id, voluptate officiis sapiente sequi! Earum cumque, itaque sint quis voluptatibus et deleniti illum natus, ipsum error nesciunt. Natus ea doloribus impedit quia repellat sit, voluptas laboriosam laborum labore libero mollitia molestiae, repellendus!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dolor quibusdam deleniti architecto ad sequi laborum ipsam tenetur itaque! Hic dolor, atque? Necessitatibus quaerat incidunt illum eos asperiores obcaecati vel
+              maxime unde atque, quod vero itaque veniam expedita ad molestias sunt cupiditate voluptate quo pariatur minima dolores quis, minus qui quia? Molestias aliquid nemo rerum iure quasi error velit ut provident, voluptate laboriosam,
+              ducimus, soluta excepturi repellat minima laudantium optio! Eos veritatis expedita, quibusdam nulla sequi laborum eum iure possimus laudantium odio, dicta officia sint quasi impedit iste veritatis qui, assumenda laborum reprehenderit
+              amet, quia enim.</p>
+            <p>Id ratione commodi dolorem aut similique iste a, numquam natus nesciunt aliquid, voluptatibus, architecto velit non cumque distinctio nemo ad sapiente laborum temporibus fuga tempora. Hic eligendi, autem consectetur iure commodi ipsa
+              nam ducimus voluptate, ipsum laboriosam magni, aliquid quia! Ab quas voluptates modi, illo nisi, voluptas aliquam aliquid laboriosam dolore reprehenderit necessitatibus, amet maiores deserunt! Voluptas cumque quo labo voluptatibus eos.
+              Optio cupiditate explicabo est nisi, id, voluptate officiis sapiente sequi! Earum cumque, itaque sint quis voluptatibus et deleniti illum natus, ipsum error nesciunt. Natus ea doloribus impedit quia repellat sit, voluptas laboriosam
+              laborum labore libero mollitia molestiae, repellendus!</p>
           </div>
 
           <!-- Delete this section above if you don't want a read more section -------->
@@ -185,8 +191,7 @@
           <footer>
             <hr>
             <cite>
-              <i class="fa fa-fw mr-1 fa-file-pdf"></i>Smith, J. K. (2013). <em>Title of Dissertation.</em> (Doctoral dissertation). Retrieved from Some Digital Commons Repository. <a class="urls" href=""
-                target="_blank">(https://hp.com)</a></cite>
+              <i class="fa fa-fw mr-1 fa-file-pdf"></i>Smith, J. K. (2013). <em>Title of Dissertation.</em> (Doctoral dissertation). Retrieved from Some Digital Commons Repository. <a class="urls" href="" target="_blank">(https://hp.com)</a></cite>
           </footer>
         </blockquote>
 
@@ -204,6 +209,9 @@
 
   </div>
   <!-- #wrapper .container -->
+
+  <!-- Acknowledge include -->
+  <div id="acknowledge"></div>
 
   <!-- Footer include -->
   <div id="page-footer"></div>
@@ -266,6 +274,11 @@
         $("#me").removeClass("active");
         $("#research").addClass("active");
 
+      });
+
+      // Load the acknowledge footer
+      $("#acknowledge").load("acknowledge.html", function() {
+        console.log("acknowledge loaded");
       });
 
     });

@@ -32,14 +32,13 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-  <!-- Google font, Mulish -->
+  <!-- Google font, Roboto -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
-
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,700;1,400&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
 
   <!-- FontAwesome icon include -->
-  <script src="https://kit.fontawesome.com/b730292a05.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- Main local styles -->
   <link rel="stylesheet" href="css/main.css">
@@ -54,7 +53,7 @@
   <div id="page-navbar"></div>
 
   <!-- main wrapper div -->
-  <div class="container min-vh-100" id="wrapper">
+  <div class="container" id="wrapper">
 
     <div class="row">
       <div class="col-sm-4">
@@ -87,10 +86,7 @@
           </tbody>
         </table>
 
-        <div class="alert alert-primary" role="alert">
-          <h5>Download this template</h5>
-          This template is completely free. Download and use as you see fit&mdash;no attribution to me is necessary. <a href="https://github.com/randal-sean-harrison/academic-website-template-bs4" target="_blank">Download it from Github.</a>
-        </div>
+
 
       </div>
       <!-- col-sm-4 -->
@@ -150,6 +146,13 @@
           </li>
         </ul>
 
+        <div class="alert alert-primary mt-4" role="alert">
+          <h5>Download this template</h5>
+          <p>This template is completely free. Download and use any or all of it as you see fit. No attribution to me is necessary, though <a href="mailto:rharriso@nd.edu">I'd love to know</a> if you're using it!</p>
+          <p>
+            <a href="https://github.com/randal-sean-harrison/academic-website-template-bs4" target="_blank">Download template from Github.</a>
+          </p>
+        </div>
 
       </div>
       <!-- col-sm-8 -->
@@ -159,6 +162,9 @@
 
   </div>
   <!-- #wrapper .container -->
+
+  <!-- Acknowledge include -->
+  <div id="acknowledge"></div>
 
   <!-- Footer include -->
   <div id="page-footer"></div>
@@ -205,9 +211,13 @@
 
       // Load the top page navbar
       $("#page-navbar").load("page-navbar.html", function() {
-
+        console.log("navbar loaded");
       });
 
+      // Load the acknowledge footer
+      $("#acknowledge").load("acknowledge.html", function() {
+        console.log("acknowledge loaded");
+      });
 
     });
     // document.ready
