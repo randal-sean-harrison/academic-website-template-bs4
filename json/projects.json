@@ -5,7 +5,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type1",
-      "icon": "<i class='fa fa-window fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-laptop-code fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Beta",
@@ -13,7 +13,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type1",
-      "icon": "<i class='fa fa-window fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-laptop-code fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Gamma",
@@ -21,7 +21,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type1",
-      "icon": "<i class='fa fa-window fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-laptop-code fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Delta",
@@ -29,7 +29,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type1",
-      "icon": "<i class='fa fa-window fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-laptop-code fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Epilson",
@@ -37,7 +37,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type1",
-      "icon": "<i class='fa fa-window fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-laptop-code fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Zeta",
@@ -45,7 +45,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type1",
-      "icon": "<i class='fa fa-window fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-laptop-code fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Eta",
@@ -53,7 +53,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type2",
-      "icon": "<i class='fa fa-drafting-compass fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-drafting-compass fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Theta",
@@ -61,7 +61,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type2",
-      "icon": "<i class='fa fa-drafting-compass fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-drafting-compass fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Iota",
@@ -69,7 +69,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type2",
-      "icon": "<i class='fa fa-drafting-compass fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-drafting-compass fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Kappa",
@@ -77,7 +77,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type2",
-      "icon": "<i class='fa fa-drafting-compass fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-drafting-compass fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Lambda",
@@ -85,7 +85,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type2",
-      "icon": "<i class='fa fa-drafting-compass fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-drafting-compass fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Mu",
@@ -93,7 +93,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type2",
-      "icon": "<i class='fa fa-drafting-compass fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-drafting-compass fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Nu",
@@ -101,7 +101,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type3",
-      "icon": "<i class='fa fa-chess-knight fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-chess-knight fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Xi",
@@ -109,7 +109,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type3",
-      "icon": "<i class='fa fa-chess-knight fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-chess-knight fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Omicron",
@@ -117,7 +117,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type3",
-      "icon": "<i class='fa fa-chess-knight fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-chess-knight fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Pi",
@@ -125,7 +125,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type3",
-      "icon": "<i class='fa fa-chess-knight fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-chess-knight fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Rho",
@@ -133,7 +133,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type3",
-      "icon": "<i class='fa fa-chess-knight fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-chess-knight fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Sigma",
@@ -141,7 +141,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type3",
-      "icon": "<i class='fa fa-chess-knight fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-chess-knight fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Tau",
@@ -149,7 +149,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type3",
-      "icon": "<i class='fa fa-chess-knight fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-chess-knight fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Upsilon",
@@ -157,7 +157,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type3",
-      "icon": "<i class='fa fa-chess-knight fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-chess-knight fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Phi",
@@ -165,7 +165,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type4",
-      "icon": "<i class='fa fa-lightbulb-on fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-graduation-cap fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Chi",
@@ -173,7 +173,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type4",
-      "icon": "<i class='fa fa-lightbulb-on fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-graduation-cap fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Psi",
@@ -181,7 +181,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type2",
-      "icon": "<i class='fa fa-drafting-compass fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-drafting-compass fa-fw fa-2x'></i>"
     },
     {
       "name": "Project Omega",
@@ -189,7 +189,7 @@
       "image": "https://unsplash.it/350/250",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
       "type": "type4",
-      "icon": "<i class='fa fa-lightbulb-on fa-fw fa-2x'></i>"
+      "icon": "<i class='fa-solid fa-graduation-cap fa-fw fa-2x'></i>"
     }
   ]
 }
