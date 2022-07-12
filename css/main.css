@@ -216,10 +216,11 @@ h3:after {
 /* Format the social-professional network icons ------------------------------ */
 .social-icons {
   list-style-type: none;
+  padding:0;
 }
 
 .social-icons li {
-  padding: 0 2rem;
+  padding: 0 .75rem;
   display: inline-block;
   text-align: center;
   cursor: pointer;
