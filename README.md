@@ -1,4 +1,4 @@
-#Academic Website Template
+# Academic Website Template
 
 ## BOOTSTRAP v5.x TEMPLATE IS NOW AVAILABLE!
 I've created a Bootstrap 5.x version of this template, with even cooler features. You can find and download it free at: [Academic Website Template BS v5.x](https://randal-sean-harrison.github.io/randal-sean-harrison-academic-website-template-bootstrap-5)
